@@ -30,7 +30,10 @@ elif choice == 3:
     print("Result:", multiply(num1, num2))
 
 elif choice == 4:
-    print("Result:", divide(num1, num2))
+    if num2!=0:
+        print("Result:"Divide(num1,num2))
+    else:
+        print("Cannot be divided by 0)
 
 else:
     print("Invalid choice")
